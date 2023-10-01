@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color:  #394053; 
+    background-color: #F1F7ED;
+}
+
+a{
+
+    color: #5386E4;
+
+font-size: 12px;
+
+text-align: left;
+/* padding-left: 15px; */
+}
+.container{
+    padding: 15px;
+    display: flex;
+    flex-wrap:  wrap;
+    width: 390px;
+    gap: 15px;
+}
+.btn-long{
+    border-radius: 5px;
+    font-weight: 500; 
+    font-size: 16px;
+    text-align: center;
+    background-color:#CADBEB;
+    width: 345px;
+height: 50px; 
+box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.15); 
+
+}
+.btn{
+    width: 165px;
+    height: 130px;
+    border: none;
+    background-color:#CADBEB;
+    display: flex;
+   flex-direction: column;
+    border-radius: 5px;
+   padding: 0;
+   box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.15); 
+
+   /* align-content: space-between; */
+    
+}
+
+.main{
+    flex: 1;
+    margin-top: 15px;
+    margin-left: 15px;
+    width:130px;
+    height: 50px;
+    font-weight: 500; 
+    font-size: 20px; 
+  
+  /* white-space: wrap-reverse; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+    
+    /* padding-top: 15px;
+    padding-left: 15px; */
+
+}
+
+.extra{
+    flex: 0;
+     margin-bottom: 15px;
+     margin-left: 15px;
+     font-size: 10px;
+/*     
+
+   padding-bottom: 15px;
+   padding-left: 15px; */
+}
